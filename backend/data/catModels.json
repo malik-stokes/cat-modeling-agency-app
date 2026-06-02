@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Whiskers",
+    "breed": "Siamese",
+    "age": 3,
+    "description": "Graceful and sassy. Expert at posing mid-yawn.",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Mittens",
+    "age": 4,
+    "breed": "Persian",
+    "description": "Loves the camera. Hates loud noises.",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Boots",
+    "breed": "Maine Coon",
+    "age": 2,
+    "description": "Chonk. Very good at sitting still.",
+    "available": true
+  }
+]
