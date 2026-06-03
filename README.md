@@ -20,7 +20,7 @@ Full-stack web application for managing a fictional cat modeling agency, includi
 **Frontend:**
 - Next.js / React
 - JavaScript / TypeScript
-- CSS / Tailwind (if applicable)
+- CSS / Tailwind
 
 **Backend:**
 - Node.js
