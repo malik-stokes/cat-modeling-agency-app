@@ -4,7 +4,7 @@ Full-stack web application for managing a fictional cat modeling agency, includi
 
 ---
 
-## 🚀 Features
+## Features
 
 - View and manage cat profiles
 - Create, update, and delete cat records
@@ -15,7 +15,7 @@ Full-stack web application for managing a fictional cat modeling agency, includi
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 **Frontend:**
 - Next.js / React
@@ -31,7 +31,7 @@ Full-stack web application for managing a fictional cat modeling agency, includi
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 Cat-Modeling-Agency-App/
 ├── frontend/
@@ -43,7 +43,7 @@ Cat-Modeling-Agency-App/
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
 ### Backend
 ```bash
