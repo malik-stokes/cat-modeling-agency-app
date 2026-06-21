@@ -33,7 +33,7 @@ Full-stack web application for managing a fictional cat modeling agency, includi
 
 ## Project Structure
 ```
-Cat-Modeling-Agency-App/
+cat-modeling-agency-app/
 ├── frontend/
 ├── backend/
 ├── api/
