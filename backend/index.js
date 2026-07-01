@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Root route
 app.get('/', (req, res) => {
-  res.send('Cat Model Management System');
+  res.send("Cat Modeling Agency — Backend");
 });
 
 // Use /cats routes

@@ -5,15 +5,19 @@
     "breed": "Siamese",
     "age": 3,
     "description": "Graceful and sassy. Expert at posing mid-yawn.",
-    "available": true
+    "available": true,
+    "bookings": [],
+    "performance": 0
   },
   {
     "id": 2,
     "name": "Mittens",
-    "age": 4,
     "breed": "Persian",
+    "age": 4,
     "description": "Loves the camera. Hates loud noises.",
-    "available": true
+    "available": true,
+    "bookings": [],
+    "performance": 0
   },
   {
     "id": 3,
@@ -21,6 +25,35 @@
     "breed": "Maine Coon",
     "age": 2,
     "description": "Chonk. Very good at sitting still.",
-    "available": true
+    "available": true,
+    "bookings": [],
+    "performance": 0
+  },
+  {
+    "id": 4,
+    "name": "Cleo",
+    "breed": "Exotic Shorthair",
+    "age": 3,
+    "description": "Cleo’s plush coat and round face give her a charming and photogenic appeal perfect for studio shoots.",
+    "available": true,
+    "bookings": [
+      {
+        "client": "Malik",
+        "date": "2026-07-01",
+        "location": "Atlanta"
+      }
+    ],
+    "performance": 0,
+    "performanceScore": 95
+  },
+  {
+    "id": 5,
+    "name": "Luna",
+    "breed": "Siberian",
+    "age": 3,
+    "description": "A fluffy Siberian with piercing green eyes and a calm demeanor, perfect for cozy shoots.",
+    "available": true,
+    "bookings": [],
+    "performance": 0
   }
 ]

@@ -1,27 +1,41 @@
-// app/page.js or pages/index.js
+// app/page.js
+
 "use client";
-import { useState } from "react";
-import { catModels } from "../data";
-import CatCard from "../components/CatCard";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const [selectedCat, setSelectedCat] = useState(null);
-
-  const handleBooking = (cat) => {
-    setSelectedCat(cat);
-    alert(`You booked ${cat.name} for a photoshoot!`);
-  };
+  const router = useRouter();
 
   return (
-  <main className="min-h-screen bg-neutral-100 flex justify-center">
-    <div className="w-full max-w-6xl px-4 py-16">
-    <h1 className="text-9xl text-center mb-10">Feline Models Portfolio</h1>
-    <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-      {catModels.map((cat) => (
-        <CatCard key={cat.id} cat={cat} onBook={handleBooking} />
-      ))}
-    </div>
-  </div>
-</main>
+    <main
+      className="homepage-transition relative h-screen w-full bg-cover bg-center"
+      style={{ backgroundImage: "url('/cat-background.jpg')" }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40" />
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+
+        {/* Title */}
+        <h1 className="text-center text-4xl sm:text-6xl md:text-8xl font-serif uppercase tracking-[0.18em] break-words px-4 mb-6 max-w-full">
+          Cat Modeling Agency
+        </h1>
+
+        {/* Tagline */}
+        <p className="text-lg sm:text-xl md:text-2xl font-serif font-normal tracking-wide mb-10">
+          Where Elegance Meets Whiskers.
+        </p>
+
+        {/* Button */}
+        <button
+          onClick={() => router.push("/explore")}
+          className="cursor-pointer px-4 py-3 sm:px-6 sm:py-4 font-serif uppercase tracking-widest 
+          text-base sm:text-lg bg-white text-black transition-all duration-500 hover:bg-neutral-200"
+        >
+          Explore
+        </button>
+      </div>
+    </main>
   );
 }

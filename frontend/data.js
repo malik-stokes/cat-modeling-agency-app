@@ -14,7 +14,7 @@ export const catModels = [
     breed: "Persian",
     age: 4,
     description: "Loves the camera. Hates loud noises.",
-    available: false,
+    available: true,
     image: "/mittens.jpg",
   },
   {
