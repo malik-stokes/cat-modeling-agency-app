@@ -11,7 +11,7 @@ export default function Navbar() {
   const active = "underline underline-offset-4";
 
   return (
-    <nav className="w-full px-10 py-7 flex items-center justify-between font-serif font-normal tracking-wide">
+    <nav className="w-full px-10 py-7 flex flex-col items-center gap-6 md:flex-row md:items-center md:justify-between font-serif font-normal tracking-wide">
       
       {/* Home */}
       <Link
@@ -22,7 +22,7 @@ export default function Navbar() {
       </Link>
 
       {/* Right side */}
-      <div className="flex gap-10">
+      <div className="flex justify-center gap-10">
         <Link
           href="/explore"
           className={`${linkBase} ${pathname === "/explore" ? active : ""}`}
