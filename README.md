@@ -4,6 +4,30 @@ A full‑stack web application built to showcase a fictional cat modeling agency
 
 ---
 
+## Screenshots
+
+### Cat Agency Homepage
+
+![Cat Agency Homepage](screenshots/cat-home.png)
+
+### Cat Model Gallery
+
+![Cat Model Gallery](screenshots/cat-explore.png)
+
+### About Page
+
+![About Page](screenshots/cat-about.png)
+
+### Contact Page
+
+![Contact Page](screenshots/cat-contact.png)
+
+### Booking Page
+
+![Booking Page](screenshots/cat-booking.png)
+
+---
+
 ## Features
 
 - Browse 12 unique cat profiles
