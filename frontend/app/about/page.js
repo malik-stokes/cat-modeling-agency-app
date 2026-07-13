@@ -26,7 +26,7 @@ export default function About() {
         </p>
 
         <p className="max-w-3xl font-serif text-lg md:text-xl leading-relaxed tracking-wide mt-8">
-          Whether you're exploring our curated gallery or booking a session with one of our
+          Whether you’re exploring our curated gallery or booking a session with one of our
           featured models, we aim to deliver a premium experience inspired by high‑fashion
           aesthetics and modern design.
         </p>
